@@ -1,0 +1,25 @@
+{
+  "name": "react-firebase-boilerplate",
+  "version": "0.0.1",
+  "description": "react - firebase boilerplate. I have enabled firebase cloud functions &amp; hosting. At the time of writing it has the latest react starter app. And expecting to add features like git/bitbucket CICD etc.",
+  "main": "none",
+  "scripts": {
+    "setup": "npm install firebase-tools -g && firebase login && firebase init && cd ./web && npm i && npm run build && cd ..",
+    "serve": "firebase serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/razorRun/react-firebase-boilerplate.git"
+  },
+  "keywords": [
+    "react",
+    "firebase",
+    "boilerplate"
+  ],
+  "author": "Roshan Milinda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/razorRun/react-firebase-boilerplate/issues"
+  },
+  "homepage": "https://github.com/razorRun/react-firebase-boilerplate#readme"
+}
