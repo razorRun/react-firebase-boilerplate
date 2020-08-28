@@ -2,6 +2,8 @@
 
 React - Firebase boilerplate. I have enabled firebase cloud functions & hosting. At the time of writing it has the latest react starter app. And expecting to add features like git/bitbucket CICD etc.
 
+More information can be found on [How to host a React App on Firebase in 30 seconds?](https://roshan.digital/host-a-react-app-on-firebase-in-30-seconds/)
+
 ### To start
 
 1. Clone the repo.
