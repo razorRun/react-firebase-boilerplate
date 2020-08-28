@@ -4,7 +4,7 @@
   "description": "react - firebase boilerplate. I have enabled firebase cloud functions &amp; hosting. At the time of writing it has the latest react starter app. And expecting to add features like git/bitbucket CICD etc.",
   "main": "none",
   "scripts": {
-    "setup": "npm install firebase-tools -g && firebase login && firebase init && cd ./web && npm i && npm run build && cd ..",
+    "setup": "npm install firebase-tools -g && firebase login && firebase init && cd ./web && npm i && npm run build && cd .. && cd ./functions && npm i && npm run build && cd ..",
     "serve": "firebase serve"
   },
   "repository": {
